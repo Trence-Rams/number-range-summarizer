@@ -5,9 +5,9 @@ import java.util.stream.Collectors;
 
 public class NumberRangeSummarizerImpl implements NumberRangeSummarizer {
 
-    /**
-     * Collects and converts the input string into a sorted list of integers.
-     */
+    
+     // Collects and converts the input string into a sorted list of integers.
+     
     @Override
     public Collection<Integer> collect(String input) {
         if (input == null || input.trim().isEmpty()) {
